@@ -19,5 +19,5 @@ int main()
      cout << "Enter marks of 5th subject: ";
      cin >> Subject05;
      Percentage = ((Subject01 + Subject02 + Subject03 + Subject04 + Subject05)/500)*100;
-     cout << Name << "'s totak percentage is " << Percentage << "%" << ".";
+     cout << Name << "'s total percentage is " << Percentage << "%" << ".";
 }
