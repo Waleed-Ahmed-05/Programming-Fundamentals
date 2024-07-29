@@ -1,4 +1,4 @@
-// Write a c++ program that takes two numbers from the user and prints the greater number on the screen using pre-defined function.
+// Write a program that takes two numbers as input from the user and prints the minimum out of two on the screen using pre-defined functions.
 
 #include <iostream>
 #include <cmath>
@@ -12,5 +12,5 @@ int main()
     cin >> Number_01;
     cout << "Enter 2nd number: ";
     cin >> Number_02;
-    cout << "Greatest number is " << max(Number_01,Number_02) << ".";
+    cout << "Minimum number is " << min(Number_01,Number_02) << ".";
 }
